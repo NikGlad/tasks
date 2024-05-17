@@ -2,12 +2,12 @@ import docx
 # from pyautocad import *
 
 
-# doc = docx.Document()
+doc = docx.Document()
 
 # TODO expert
-doc1 = docx.Document("экспертиза1.docx")
+doc = docx.Document("экспертиза1.docx")
 
-all_paras = doc1
+all_paras = doc
 for para in all_paras:
     print(para.text)
 
