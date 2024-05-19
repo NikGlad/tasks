@@ -17,5 +17,5 @@ print("Площадь квадрата: ", float(square**2))
 rectangle_l = float(input("Введите длину стороны прямоугольника: "))
 rectangle1_w = float(input("Введите ширину стороны прямоугольника: "))
 
-print("Периметр квадрата: ", float((rectangle_l + rectangle1_w)*2))
-print("Площадь квадрата: ", float(rectangle_l * rectangle1_w))
+print("Периметр прямоугольника: ", float((rectangle_l + rectangle1_w)*2))
+print("Площадь прямоугольника: ", float(rectangle_l * rectangle1_w))
