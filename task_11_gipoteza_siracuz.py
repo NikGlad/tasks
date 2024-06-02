@@ -9,5 +9,6 @@ while number != 1:
         number = (number * 3 + 1)/2
     counter += 1
 
+
 print(number)
 print(counter)
