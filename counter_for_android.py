@@ -1,6 +1,10 @@
 from datetime import datetime
 import tkinter as tk
 
+from kivy.app import App
+from kivy.uix.button import Button
+
+
 
 
 
@@ -29,5 +33,11 @@ calc.grid(row=0, column=0, columnspan=3, stick='we')
 
 calc.insert(0, f'С {date_str} прошло {days_passed} дней трезвости')
 
+class CounterApp(App):
+    def build(self):
+        return Button(text=f'С {date_str} прошло {days_passed} дней трезвости')
 
-win.mainloop()
+CounterApp().run()
+
+
+# win.mainloop()
