@@ -12,6 +12,7 @@ if children > 3:
     print("детей более 3, ключевая ставка", prime_rate - 1)
 else:
     print("Детей менее 4", children, "ключевая ставка", prime_rate)
+
 payroll_projekt = input("Введите, есть ли зарплатный проект в банке?: ")
 if payroll_projekt == 'да':
     print("Есть зарплатный проект в банке, ключевая ставка", prime_rate - 0.5)
