@@ -109,3 +109,18 @@
 # print(list(map(lambda x: (x**2, x**3), [252, 547, 88])))
 
 
+students_list = [
+    {"name": "Василий", "surname": "Тёркин", "gender": "м", "program_exp": True, "grade": [8, 8, 9, 9], "exam": 8},
+    {"name": "Мария", "surname": "Павлова", "gender": "ж", "program_exp": True, "grade": [7, 8, 9, 7, 9], "exam": 9},
+    {"name": "Ирина", "surname": "Андреева", "gender": "ж", "program_exp": False, "grade": [10, 9, 8, 10, 10], "exam": 7},
+    {"name": "Татьяна", "surname": "Сидорова", "gender": "ж", "program_exp": False, "grade": [7, 8, 8], "exam": 10},
+    {"name": "Иван", "surname": "Васильев", "gender": "м", "program_exp": True, "grade": [9, 8, 9, 6, 9], "exam": 5},
+    {"name": "Роман", "surname": "Золотарев", "gender": "м", "program_exp": False, "grade": [8, 9, 9, 9], "exam": 6},
+]
+
+# def get_grades(name, surname, students):
+#     for student in students:
+#         if student['name'] == name and student['surname'] == surname:
+#             print(', '.join(map(str, student['grade'])))
+#
+# get_grades('Иван', 'Васильев', students_list)
