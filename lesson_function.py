@@ -124,3 +124,15 @@ students_list = [
 #             print(', '.join(map(str, student['grade'])))
 #
 # get_grades('Иван', 'Васильев', students_list)
+
+
+
+# def get_grades(name, surname, students):
+#     for student in students:
+#         if student['name'] == name and student['surname'] == surname:
+#             print(student['exam'])
+#
+# a = input('введите имя ')
+# b = input('введите фамилию ')
+#
+# get_grades(a, b, students_list)
